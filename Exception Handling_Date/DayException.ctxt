@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=DayException
+comment1.params=errorMessage
+comment1.target=DayException(java.lang.String)
+numComments=2

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=FindAKey
+comment1.params=i\ arr
+comment1.target=java.lang.String\ getOver(java.lang.Integer,\ java.lang.String[])
+comment2.params=v\ arr
+comment2.target=boolean\ arrHas(java.lang.String,\ java.lang.String[])
+comment3.params=note\ scale
+comment3.target=java.util.List\ getChords(java.lang.String,\ java.lang.String)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Particle
+comment1.params=
+comment1.target=Particle()
+comment1.text=\n\ Note\:\ if\ using\ the\ default\ construtor,\ a\ call\ to\ the\n\ initialize()\ method\ is\ necessary\ to\ initialize\ the\ instance\ variables\n
+comment2.params=grid\ x\ y
+comment2.target=Particle(Grid,\ int,\ int)
+comment3.params=grid\ x\ y
+comment3.target=void\ initialize(Grid,\ int,\ int)
+comment4.params=x\ y
+comment4.target=void\ moveTo(int,\ int)
+comment5.params=x2\ y2
+comment5.target=void\ swapWith(int,\ int)
+comment6.params=
+comment6.target=void\ step()
+numComments=7

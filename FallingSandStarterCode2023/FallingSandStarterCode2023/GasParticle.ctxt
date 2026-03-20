@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=GasParticle
+comment1.params=
+comment1.target=GasParticle()
+comment2.params=grid\ x\ y
+comment2.target=GasParticle(Grid,\ int,\ int)
+comment3.params=
+comment3.target=void\ step()
+numComments=4

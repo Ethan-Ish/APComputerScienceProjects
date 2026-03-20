@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Movie
+comment0.text=\n\ Movie\ class\ that\ encapsulates\ some\ basic\ information\ about\ a\ movie\n
+comment1.params=title\ year\ actors
+comment1.target=Movie(java.lang.String,\ int,\ java.util.List)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Movie\n\ pre-condition\:\ the\ actors'\ names\ will\ be\ passed\ in\ as\:\ \n\ FirstName\ LastName\ \n\ with\ no\ commas.\ \n\ Note\:\ Some\ actors\ do\ not\ have\ a\ last\ name,\ like\ Madonna.\n
+comment2.params=
+comment2.target=java.lang.String\ getTitle()
+comment2.text=\n\ returns\ the\ title\ of\ the\ movie\n
+comment3.params=
+comment3.target=int\ getYear()
+comment3.text=\n\ returns\ the\ year\ the\ movie\ was\ released\n
+comment4.params=
+comment4.target=java.util.List\ getActors()
+comment4.text=\n\ returns\ a\ List\ of\ all\ the\ main\ actors\ in\ the\ movie\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ returns\ a\ String\ representation\ of\ a\ Movie\ object\ \n\ \ \ \ \ \ \ \ \ in\ the\ format\:\n\ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ Title\:\ 101\ Dalmatians\ \n\ \ \ \ \ \ \ \ \ Year\:\ 1999\n\ \ \ \ \ \ \ \ \ Actors\ \:\ [John\ Benfield,\ ...\ ,\ Mark\ Williams]\n
+comment6.params=that
+comment6.target=boolean\ equals(java.lang.Object)
+comment6.text=\n\ Returns\ true\ if\ both\ the\ year\ and\ title\ of\ this\ and\ that\ are\ equal\n
+numComments=7

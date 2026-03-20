@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=MonthException
+comment1.params=errorMessage
+comment1.target=MonthException(java.lang.String)
+numComments=2

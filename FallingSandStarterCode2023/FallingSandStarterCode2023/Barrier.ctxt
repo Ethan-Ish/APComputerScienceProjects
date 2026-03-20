@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Barrier
+comment1.params=
+comment1.target=Barrier()
+comment2.params=grid\ x\ y
+comment2.target=Barrier(Grid,\ int,\ int)
+numComments=3

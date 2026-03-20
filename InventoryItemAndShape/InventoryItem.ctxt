@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=InventoryItem
+comment1.params=name\ uniqueItemID
+comment1.target=InventoryItem(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=java.lang.Integer\ getID()
+comment5.params=input
+comment5.target=void\ setName(java.lang.String)
+comment6.params=ID
+comment6.target=void\ setID(int)
+comment7.params=other
+comment7.target=int\ compareTo(InventoryItem)
+numComments=8

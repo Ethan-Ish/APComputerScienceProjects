@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Date
+comment0.text=\n\ Write\ a\ description\ of\ class\ Tester\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=month\ day\ year
+comment1.target=java.lang.String\ dateConvert(int,\ int,\ int)
+numComments=2

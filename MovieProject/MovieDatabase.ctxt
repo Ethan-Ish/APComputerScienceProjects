@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=MovieDatabase
+comment0.text=\n\ \ A\ MovieDatabase\ is\ a\ mutable\ collection\ of\ Movie\ objects\n
+comment1.params=
+comment1.target=MovieDatabase()
+comment1.text=\n\ initializes\ a\ MovieDatabase\ --\ the\ database\ starts\ empty\n
+comment2.params=movie
+comment2.target=void\ addMovie(Movie)
+comment2.text=\n\ adds\ a\ Movie\ to\ the\ database,\ in\ no\ particular\ order\n
+comment3.params=keyword
+comment3.target=java.util.List\ search(java.lang.String)
+comment3.text=\n\ searches\ the\ database\ for\ Movie\ titles\ that\ contain\ the\ keyword\n\ for\ example\:\ search("Dalmation")\ returns\ a\ List\ containing\n\ only\ one\ movie\:\ the\ movie\ associated\ with\ "101\ Dalmations"\n\ If\ no\ movies\ are\ found,\ return\ an\ empty\ List\n
+comment4.params=t\ in
+comment4.target=boolean\ findString(java.lang.String,\ java.lang.String)
+comment5.params=person
+comment5.target=java.util.List\ findMoviesWithActor(java.lang.String)
+comment5.text=\n\ Returns\ a\ List\ of\ all\ Movie\ objects\ in\ which\ a\ person\ acted.\n\ If\ no\ movies\ are\ found\ with\ this\ actor,\ return\ an\ empty\ List.\n\ \n\ Note\:\ the\ actor's\ name\ must\ be\ an\ exact\ match.\ \n\ \n\ For\ example,\ findMoviesWithActor("Bacon")\ would\ return\ an\ empty\ List\n\ but\ findMoviesWithActor("Kevin\ Bacon")\ might\ return\ the\ movies\ \n\ Animal\ House,\ Apollo\ 13,\ and\ A\ Few\ Good\ Men.\n
+comment6.params=movieList
+comment6.target=void\ addUnformattedMoviesToDatabase(java.util.List)
+comment6.text=\n\ This\ method\ takes\ the\ most\ amount\ of\ work\ and\ is\ the\ most\ important.\ \n\ It\ loops\ through\ a\ List\ of\ movies\ formatted\ in\ the\ following\ way\ (as\ seen\ in\ the\ text\ file)\:\n\ \n\ title\:\ (year)/Last\ Name\ of\ Actor\ 1,\ First\ Name\ of\ Actor\ 1/Last\ Name\ of\ Actor\ 2,\ First\ Name\ of\ Actor\ 2/...\n\ \n\ For\ example\n\ Ace\ Ventura\:\ When\ Nature\ Calls\ (1995)/Akinnuoye-Agbaje,\ Adewale/Allen,\ Kayla/...\n\ \n\ From\ this\ long\ String,\ extract\ the\ following\:\n\ 1.\ movie\ title\n\ \ \ \ e.g.\ Ace\ Ventura\:\ When\ Nature\ Calls\n\ 2.\ year\n\ \ \ \ e.g.\ 1995\n\ 3.\ List\ of\ actors.\ Each\ actor\ should\ be\ parsed\ to\ match\ this\ format\:\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ FirstName\ LastName\ \n\ \ \ \ with\ no\ commas.\n\ \ \ \ e.g.\ [Adewale\ Akinnuoye-Agbaje,\ Kayla\ Allen,\ ...]\n\ \ \ \ Note\:\ Some\ actors\ do\ not\ have\ a\ last\ name,\ like\ Madonna.\n\ \ \ \ \n\ \ \ \ \n\ After\ extracting\ this\ information,\ instantiate\ a\ Movie\ object\ with\ all\ of\ \n\ these\ data\ fields\ and\ add\ it\ to\ this\ MovieDatabase\ using\ the\ addMovie\ method.\ \n\ \n\ Repeat\ this\ for\ each\ of\ the\ movies\ in\ movieList.\n\ Hint\:\ the\ split()\ method\ in\ the\ String\ class\ is\ particularly\ useful.\n\ For\ example,\ "dog/cat/sat".split("/")\ returns\ the\ following\ array\:\n\ \ \ \ \ \ ["dog",\ "cat",\ "sat"]\n
+numComments=7

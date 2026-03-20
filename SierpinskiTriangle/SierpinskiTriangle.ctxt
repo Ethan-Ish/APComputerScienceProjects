@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=SierpinskiTriangle
+comment1.params=x0\ y0\ x1\ y1
+comment1.target=int[]\ midpoint(int,\ int,\ int,\ int)
+comment2.params=g\ n\ x0\ y0\ x1\ y1\ x2\ y2
+comment2.target=void\ draw(java.awt.Graphics,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment2.text=\n\ \ draw\ an\ H\ tree\n\ \ @param\ n\ \ the\ depth\ of\ the\ tree\n\ \ @param\ length\ the\ length\ of\ the\ line\ segments\ that\ form\ the\ H\n\ \ @param\ x\ the\ x\ coordinate\ of\ the\ center\ of\ the\ H\n\ \ @param\ y\ the\ y\ coordinate\ of\ the\ center\ of\ the\ H\n
+comment3.params=
+comment3.target=SierpinskiTriangle()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

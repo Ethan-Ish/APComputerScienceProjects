@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Truck
+comment0.text=\n\ Write\ a\ description\ of\ class\ Truck\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=name\ cyl\ own\ loadCapacity\ towingCapacity
+comment1.target=Truck(java.lang.String,\ int,\ Person,\ double,\ int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=double\ getLoadCapacity()
+comment4.params=
+comment4.target=double\ getTowCapacity()
+comment5.params=numInp
+comment5.target=void\ setLoadCapacity(double)
+comment6.params=numInp
+comment6.target=void\ setTowCapacity(int)
+numComments=7

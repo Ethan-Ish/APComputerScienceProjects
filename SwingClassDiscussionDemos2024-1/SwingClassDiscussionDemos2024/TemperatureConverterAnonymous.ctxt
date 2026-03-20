@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TemperatureConverterAnonymous
+comment1.params=
+comment1.target=TemperatureConverterAnonymous()
+comment1.text=private\ class\ ButtonListener\ implements\ ActionListener{\n\ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ @Override\n\ \ \ \ \ \ \ \ public\ void\ actionPerformed(ActionEvent\ e){\n\ \ \ \ \ \ \ \ \ \ \ \ //\ take\ the\ input\ from\ fField\n\ \ \ \ \ \ \ \ \ \ \ \ try{\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ fahrenheit\ \=\ Double.parseDouble(fField.getText());\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ celsius\ \=\ (fahrenheit\ -\ 32)*5/9;\ \ \ \ //\ wait....5/9\ \=\ 0\ in\ Java\ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ F\ \=\ 9/5C\ +\ 32\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cField.setText(""\ +\ celsius);\ //\ Double.toString(celsius);\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ catch\ (NumberFormatException\ exception){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cField.setText("What\ do\ you\ think\ a\ number\ IS???\ Fool\!");\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ JOptionPane.showMessageDialog(cField,\ "not\ a\ number");\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \n}
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

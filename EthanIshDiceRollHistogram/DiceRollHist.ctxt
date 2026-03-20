@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DiceRollHist
+comment1.params=
+comment1.target=void\ roll()
+comment2.params=in
+comment2.target=int\ tryParse(java.lang.String)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=evt
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=6

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=GUInner
+comment1.params=
+comment1.target=GUInner()
+comment2.params=
+comment2.target=void\ main()
+comment2.text=\n\ \ \ \ @Override\n\ \ \ \ //\ actionPerformed\ is\ called\ an\ event\ handler\n\ \ \ \ public\ void\ actionPerformed(ActionEvent\ e){\n\ \ \ \ \ \ \ \ //\ actionPerformed\ gets\ called\ automatically\ by\ the\ GUI\n\ \ \ \ \ \ \ \ //\ when\ a\ button\ click\ happens\ \n\ \ \ \ \ \ \ \ //\ how\ do\ we\ give\ ButtonListener\ access\ to\ the\ JFrame??\n\ \ \ \ \ \ \ \ //System.exit(0);\n\ \ \ \ \ \ \ \ //frame.resize(0,0);\n\ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ //\ how\ do\ we\ distunguish\ between\ which\ button\ fires\ the\ event\n\ \ \ \ \ \ \ \ if\ (e.getActionCommand().equals("one"))\n\ \ \ \ \ \ \ \ \ \ \ \ frame.resize((int)\ (Math.random()*\ 800)\ +\ 50,\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (int)\ (Math.random()*\ 800)\ +\ 50);\n\ \ \ \ \ \ \ \ else\ if\ (e.getActionCommand().equals("two"))\n\ \ \ \ \ \ \ \ \ \ \ \ frame.getContentPane().setBackground(new\ Color(150,\ 255,\ 150));\n\ \ \ \ \ \ \ \ else\ if\ (e.getActionCommand().equals("three"))\n\ \ \ \ \ \ \ \ \ \ \ \ frame.getContentPane().setBackground(Color.LIGHT_GRAY);\n\ \ \ \ \ \ \ \ \ \ \ \ \n}
+numComments=3
